@@ -8,9 +8,12 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlTransient;
 
 @XmlRootElement(name="WeatherData")
+
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
@@ -97,6 +100,7 @@ public class Merge {
     }
 
     @JsonProperty("visibility")
+    @XmlTransient                //iiahigraihijhthaijirhgihaih !!!!!!!!!!!   UNSICHTBARES ELEMENT
     public Integer getVisibility() {
         return visibility;
     }
