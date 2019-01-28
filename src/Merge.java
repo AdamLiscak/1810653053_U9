@@ -32,7 +32,7 @@ import javax.xml.bind.annotation.XmlTransient;
 })
 public class Merge {
 
-    @JsonProperty("coord")
+    @JsonIgnore
     private Coord coord;
     @JsonProperty("weather")
     private List<Weather> weather = null;
@@ -59,12 +59,12 @@ public class Merge {
     @JsonIgnore
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
-    @JsonProperty("coord")
+    @JsonIgnore
     public Coord getCoord() {
         return coord;
     }
 
-    @JsonProperty("coord")
+    @JsonIgnore
     public void setCoord(Coord coord) {
         this.coord = coord;
     }
