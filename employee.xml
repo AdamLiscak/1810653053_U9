@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WeatherData>
+    <base>stations</base>
+    <clouds>
+        <all>90</all>
+    </clouds>
+    <cod>200</cod>
+    <coord>
+        <lat>51.51</lat>
+        <lon>-0.13</lon>
+    </coord>
+    <dt>1485789600</dt>
+    <id>2643743</id>
+    <main>
+        <humidity>81</humidity>
+        <pressure>1012</pressure>
+        <temp>280.32</temp>
+        <tempMax>281.15</tempMax>
+        <tempMin>279.15</tempMin>
+    </main>
+    <name>London</name>
+    <sys>
+        <country>GB</country>
+        <id>5091</id>
+        <message>0.0103</message>
+        <sunrise>1485762037</sunrise>
+        <sunset>1485794875</sunset>
+        <type>1</type>
+    </sys>
+    <visibility>10000</visibility>
+    <weather>
+        <description>light intensity drizzle</description>
+        <icon>09d</icon>
+        <id>300</id>
+        <main>Drizzle</main>
+    </weather>
+    <wind>
+        <deg>80</deg>
+        <speed>4.1</speed>
+    </wind>
+</WeatherData>
